@@ -86,23 +86,23 @@ max S: 1.0000000000 | max |E_x|: 850.7385903560
 
 Brojevi po kombinovanom skoru (tezinski talas + frekvencija):
   26  skor=0.8424055743  freq=0.02680  (pojava=869)
-  31  skor=0.8324137931  freq=0.02560  (pojava=830)
+   x  skor=0.8324137931  freq=0.02560  (pojava=830)
   09  skor=0.7583970089  freq=0.02600  (pojava=843)
-  35  skor=0.7093126530  freq=0.02600  (pojava=843)
+   y  skor=0.7093126530  freq=0.02600  (pojava=843)
   37  skor=0.7022833984  freq=0.02652  (pojava=860)
-  08  skor=0.6970019675  freq=0.02810  (pojava=911)
+   z  skor=0.6970019675  freq=0.02810  (pojava=911)
   05  skor=0.6707580613  freq=0.02554  (pojava=828)
-  11  skor=0.6545731372  freq=0.02655  (pojava=861)
+   x  skor=0.6545731372  freq=0.02655  (pojava=861)
   02  skor=0.6483363043  freq=0.02544  (pojava=825)
-  12  skor=0.6289673428  freq=0.02498  (pojava=810)
+   y  skor=0.6289673428  freq=0.02498  (pojava=810)
   28  skor=0.6202837528  freq=0.02532  (pojava=821)
-  14  skor=0.6073454430  freq=0.02495  (pojava=809)
+   z  skor=0.6073454430  freq=0.02495  (pojava=809)
   25  skor=0.6008175251  freq=0.02591  (pojava=840)
-  16  skor=0.5983633485  freq=0.02581  (pojava=837)
+   x  skor=0.5983633485  freq=0.02581  (pojava=837)
   15  skor=0.5499479317  freq=0.02461  (pojava=798)
-  39  skor=0.5451186819  freq=0.02618  (pojava=849)
+   y  skor=0.5451186819  freq=0.02618  (pojava=849)
   19  skor=0.5396607763  freq=0.02510  (pojava=814)
-  36  skor=0.5332675145  freq=0.02424  (pojava=786)
+   z  skor=0.5332675145  freq=0.02424  (pojava=786)
   27  skor=0.5293833978  freq=0.02433  (pojava=789)
   22  skor=0.5221503000  freq=0.02625  (pojava=851)
   34  skor=0.4988822256  freq=0.02692  (pojava=873)
@@ -126,16 +126,16 @@ Brojevi po kombinovanom skoru (tezinski talas + frekvencija):
   07  skor=0.1613793103  freq=0.02603  (pojava=844)
 
 Predlozene kombinacije (rangirane po skoru kombinacije):
-  01. 09 10 11 19 27 31 37  skor_komb=4.4405076052
-  02. 15 25 26 27 28 31 33  skor_komb=4.3590312385
-  03. 08 16 17 21 26 31 32  skor_komb=4.1292554828
-  04. 05 11 12 24 32 35 39  skor_komb=3.9172981831
-  05. 05 06 12 29 30 37 39  skor_komb=3.7105976969
-  06. 06 08 12 21 22 25 32  skor_komb=3.6517284267
-  07. 04 10 23 27 30 31 36  skor_komb=3.5289021305
-  08. 09 10 13 19 22 30 34  skor_komb=3.4417717020
-  09. 02 10 15 19 23 33 38  skor_komb=3.4260859141
-  10. 01 05 07 12 13 27 39  skor_komb=3.2285008111
+  01. 09 x 11 y 27 z 37  skor_komb=4.4405076052
+  02. 15 x 26 y 28 z 33  skor_komb=4.3590312385
+  03. 08 x 17 y 26 z 32  skor_komb=4.1292554828
+  04. 05 x 12 y 32 z 39  skor_komb=3.9172981831
+  05. 05 x 12 y 30 z 39  skor_komb=3.7105976969
+  06. 06 x 12 y 22 z 32  skor_komb=3.6517284267
+  07. 04 x 23 y 30 z 36  skor_komb=3.5289021305
+  08. 09 x 13 y 22 z 34  skor_komb=3.4417717020
+  09. 02 x 15 y 23 z 38  skor_komb=3.4260859141
+  10. 01 x 07 y 13 z 39  skor_komb=3.2285008111
 
 Sacuvano: /Tesla/tesla_369_5B.txt
 """
@@ -204,10 +204,10 @@ U txt se vidi i kontrolni podatak prosecna_abs_korekcija_stepeni: 3.566325,
 što pokazuje koliko je prosečno faza pomerana.
 
 Top 10 za 5B:
-26, 31, 09, 35, 37, 08, 05, 11, 02, 12
+26, x, 09, y, 37, z, 05, x, 02, 12
 
 Predlozene kombinacije (rangirane po skoru kombinacije):
-  01. 09 10 11 19 27 31 37  skor_komb=4.4405076052
+  01. 09 x 11 y 27 z 37  skor_komb=4.4405076052
 
 Ovde se posebno ističe 31 (drugo mesto), koji je u osnovnom 5 bio tek deveti, a u 5A ga nema u vrhu. 
 To znači da fazna korekcija menja raspored u korist nekih brojeva, 
