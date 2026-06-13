@@ -1,0 +1,109 @@
+Tesla Scalar - GRUPA 5B / phase-control drift motor
+CSV: /data/loto7hh_4632_k47.csv
+Izvlacenja: 4632 | Seed: 39 | tezine: talas=0.7 freq=0.3
+Model prevodi senzorski drift u faznu korekciju.
+gain: 0.35
+piramida: 21
+kalemova: 63
+prosecna_abs_korekcija_stepeni: 3.566325
+
+Brojevi po kombinovanom skoru (tezinski talas + frekvencija):
+  26  skor=0.8424055743  freq=0.02680  (pojava=869)
+  31  skor=0.8324137931  freq=0.02560  (pojava=830)
+  09  skor=0.7583970089  freq=0.02600  (pojava=843)
+  35  skor=0.7093126530  freq=0.02600  (pojava=843)
+  37  skor=0.7022833984  freq=0.02652  (pojava=860)
+  08  skor=0.6970019675  freq=0.02810  (pojava=911)
+  05  skor=0.6707580613  freq=0.02554  (pojava=828)
+  11  skor=0.6545731372  freq=0.02655  (pojava=861)
+  02  skor=0.6483363043  freq=0.02544  (pojava=825)
+  12  skor=0.6289673428  freq=0.02498  (pojava=810)
+  28  skor=0.6202837528  freq=0.02532  (pojava=821)
+  14  skor=0.6073454430  freq=0.02495  (pojava=809)
+  25  skor=0.6008175251  freq=0.02591  (pojava=840)
+  16  skor=0.5983633485  freq=0.02581  (pojava=837)
+  15  skor=0.5499479317  freq=0.02461  (pojava=798)
+  39  skor=0.5451186819  freq=0.02618  (pojava=849)
+  19  skor=0.5396607763  freq=0.02510  (pojava=814)
+  36  skor=0.5332675145  freq=0.02424  (pojava=786)
+  27  skor=0.5293833978  freq=0.02433  (pojava=789)
+  22  skor=0.5221503000  freq=0.02625  (pojava=851)
+  34  skor=0.4988822256  freq=0.02692  (pojava=873)
+  32  skor=0.4895780848  freq=0.02643  (pojava=857)
+  38  skor=0.4729067781  freq=0.02597  (pojava=842)
+  18  skor=0.4551716518  freq=0.02532  (pojava=821)
+  10  skor=0.4237960936  freq=0.02606  (pojava=845)
+  06  skor=0.4184622656  freq=0.02517  (pojava=816)
+  30  skor=0.4147310265  freq=0.02427  (pojava=787)
+  01  skor=0.4087397459  freq=0.02430  (pojava=788)
+  23  skor=0.4076587663  freq=0.02791  (pojava=905)
+  20  skor=0.4039883955  freq=0.02375  (pojava=770)
+  04  skor=0.3876515387  freq=0.02504  (pojava=812)
+  33  skor=0.3837792638  freq=0.02634  (pojava=854)
+  17  skor=0.3747417737  freq=0.02362  (pojava=766)
+  29  skor=0.3302769205  freq=0.02618  (pojava=849)
+  21  skor=0.2947509409  freq=0.02551  (pojava=827)
+  13  skor=0.2841542711  freq=0.02554  (pojava=828)
+  03  skor=0.2799288235  freq=0.02547  (pojava=826)
+  24  skor=0.2189902222  freq=0.02591  (pojava=840)
+  07  skor=0.1613793103  freq=0.02603  (pojava=844)
+
+Tabela pravih frekvencija (opadajuce po freq, pa po broju):
+  broj | pojava |   udeo
+  -----+--------+--------
+   08  |   911  | 0.02810
+   23  |   905  | 0.02791
+   34  |   873  | 0.02692
+   26  |   869  | 0.02680
+   11  |   861  | 0.02655
+   37  |   860  | 0.02652
+   32  |   857  | 0.02643
+   33  |   854  | 0.02634
+   22  |   851  | 0.02625
+   39  |   849  | 0.02618
+   29  |   849  | 0.02618
+   10  |   845  | 0.02606
+   07  |   844  | 0.02603
+   35  |   843  | 0.02600
+   09  |   843  | 0.02600
+   38  |   842  | 0.02597
+   25  |   840  | 0.02591
+   24  |   840  | 0.02591
+   16  |   837  | 0.02581
+   31  |   830  | 0.02560
+   13  |   828  | 0.02554
+   05  |   828  | 0.02554
+   21  |   827  | 0.02551
+   03  |   826  | 0.02547
+   02  |   825  | 0.02544
+   28  |   821  | 0.02532
+   18  |   821  | 0.02532
+   06  |   816  | 0.02517
+   19  |   814  | 0.02510
+   04  |   812  | 0.02504
+   12  |   810  | 0.02498
+   14  |   809  | 0.02495
+   15  |   798  | 0.02461
+   27  |   789  | 0.02433
+   01  |   788  | 0.02430
+   30  |   787  | 0.02427
+   36  |   786  | 0.02424
+   20  |   770  | 0.02375
+   17  |   766  | 0.02362
+  ukupno pojava: 32424
+
+Predlozene kombinacije (rangirane po skoru kombinacije):
+  01. 09 10 11 19 27 31 37  skor_komb=4.4405076052
+  02. 15 25 26 27 28 31 33  skor_komb=4.3590312385
+  03. 08 16 17 21 26 31 32  skor_komb=4.1292554828
+  04. 05 11 12 24 32 35 39  skor_komb=3.9172981831
+  05. 05 06 12 29 30 37 39  skor_komb=3.7105976969
+  06. 06 08 12 21 22 25 32  skor_komb=3.6517284267
+  07. 04 10 23 27 30 31 36  skor_komb=3.5289021305
+  08. 09 10 13 19 22 30 34  skor_komb=3.4417717020
+  09. 02 10 15 19 23 33 38  skor_komb=3.4260859141
+  10. 01 05 07 12 13 27 39  skor_komb=3.2285008111
+
+Slike talasa/polja:
+  PNG: /Tesla/tesla_369_5B.png
+  JPG: /Tesla/tesla_369_5B.jpg
